@@ -1,0 +1,42 @@
+<mat-toolbar style="background-color:#f74815; box-shadow: 0 16px 0px 12px rgb(0 0 0 / 56%);">
+    <!-- <mat-toolbar-row> -->
+    <h5 class="text-white mx-3">Admin Panel</h5>
+    <button mat-icon-button (click)="toggleSideBar()">
+        <mat-icon class="text-white">menu</mat-icon>
+    </button>
+    <!-- <a href="" class="text-white link-header mx-2">Dashboard</a>
+        <a href=""class="text-white link-header mx-2">Settings</a> -->
+    <button class="flt-right-btn" mat-icon-button>
+    </button>
+
+    <div class="dropdown flt-right-drop">
+        <button class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+
+            <button class="dropdown-item" type="button">
+                <i class="fa fa-user-circle pr-3" aria-hidden="true" style="color: black;"></i>
+
+                My Profile</button>
+            <button class="dropdown-item" type="button">
+                <i class="fa fa-commenting pr-3" aria-hidden="true" style="color: black;"></i>
+                Notification</button>
+            <button class="dropdown-item" type="button">
+                <i class="fa fa-sign-out pr-3" aria-hidden="true" style="color: rgb(0, 0, 0);"></i>
+
+                Log Out</button>
+        </div>
+    </div>
+
+    <!-- <div class="dropdown flt-right-drop2">
+        <button mat-button [matMenuTriggerFor]="menu1" class=" ln" data-toggle="dropdown" role="button"
+            aria-haspopup="true" style="color: white; font-size: 18px; " aria-expanded="false">
+            <mat-icon matBadge="5" class="count" matBadgeColor style="cursor: pointer;">notifications
+            </mat-icon>
+        </button>
+    </div> -->
+    <!-- </mat-toolbar-row> -->
+
+</mat-toolbar>

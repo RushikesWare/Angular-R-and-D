@@ -1,0 +1,65 @@
+
+
+<!-- ==================  Book Size Master (Using Angular Material)================= Dated On 10 Feb 2020 ====  -->
+<form ngForm="booksizeForm" name="booksizeForm" #booksizeForm="ngForm" class="pagefont" autocomplete="off">
+
+     
+    <mat-card class="matcardstyle matcard  body">
+        <div class=" container titles  ">
+            <br>
+            <div class="row">
+                <div class="col-md 12 ">
+                    <h4 class="heading"><b>Add Book Size</b></h4>
+                </div>
+            </div>
+            <hr class="hrstyle">
+            <div class="row">
+                <div class=" col-md-2"></div>
+                <div class="form-group col-md-4 ">
+                    <mat-form-field class="example-full-width " appearance="outline">
+                        <mat-label class="">Book Size</mat-label>
+                        <input matInput placeholder="Book Size" #BookSize="ngModel" matInput
+                        [(ngModel)]="booksizeForm.BookSize"   name="BookSize"
+                        pattern="[a-zA-Z\s]*" required > 
+                    </mat-form-field>
+                    <div *ngIf="BookSize.invalid&&(BookSize.dirty||submitted)" class="validation-error errormsg">
+
+                        <div [hidden]="!BookSize.hasError('required')">Book Size is required</div>
+                        <div [hidden]="!BookSize.hasError('pattern')">Only alphabets allowed</div>
+                    </div>
+                </div>
+                <div class="form-group col-md-4">
+                    <mat-form-field class="example-full-width" appearance="outline">
+                        <mat-label>Rate</mat-label>
+                        <input matInput placeholder="Rate" #BookSizeRate="ngModel" matInput
+                        [(ngModel)]="booksizeForm.BookSizeRate"   name="BookSizeRate"
+                        pattern="[0-9]*" required  > 
+                    </mat-form-field>
+                    <div *ngIf="BookSizeRate.invalid&&(BookSizeRate.dirty||submitted)" class="validation-error errormsg">
+
+                        <div [hidden]="!BookSizeRate.hasError('required')">Book Size Rate is required</div>
+                        <div [hidden]="!BookSizeRate.hasError('pattern')">Only Numbers allowed</div>
+                    </div>
+                </div>
+                <div class=" col-md-2"></div>
+ 
+            </div>
+  
+            <div class="row">
+                <div class="col-md-4"> </div>
+                <div class="col-md-4" style="text-align: center;">
+                    <br>
+                    <button *ngIf="!isUpdate" (click)="booksizeForm.valid?SaveBookSize():submitted=true" type="submit"
+                    class="btn btn-success formbtn buttons">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button *ngIf="isUpdate" (click)="booksizeForm.valid?UpdateBookSize():submitted=true" type="submit"
+                    class="btn btn-success formbtn buttons">Update</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button type="submit" class="btn btn-danger buttons " routerLink="/layout/booksizelist">Cancel</button>
+                </div>
+            </div>
+            <br>
+
+        </div>
+    </mat-card>
+</form>
+
+<!-- =================================================================== -->

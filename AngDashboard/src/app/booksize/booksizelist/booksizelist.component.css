@@ -1,0 +1,147 @@
+ /* code for top */
+ .toppath{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.heading{
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+    font-size: 13px; 
+  }
+  .example-button-row {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+
+.pagination{
+    font-size: 16px;
+}
+.tableheading
+{
+    font-size: 16px;
+}
+.tables {
+    width: 95%;
+    position:center;
+    margin-top: 10px; margin-left: 30px; margin-right: 10px;
+    margin-bottom: 10px;
+  }
+ .tdd{
+  /* width: auto; */
+  text-align: left;
+  padding: 8px;
+  
+ }
+ 
+ 
+ 
+  .btnmargin{
+    margin-left: 100px;
+    margin-top: 5px;
+    height: 42px;
+   
+    /* width: 90px; */
+  }
+  .btnmarginsearch{
+    margin-left: 0px;
+    margin-top: 5px;
+    height: 42px;
+    width: 30px;
+  }
+ 
+/* css for title  */
+
+.titles{
+    text-align: center;
+  }
+/* css for form control */
+.form-control
+{
+    font-size: 10px;
+}
+/* css for form */
+.form
+{
+    margin-top:-10px;
+}
+/* css for button */
+.formbtn
+{
+   font-size:13px;
+}
+/* css for charts */
+.cardouter{
+    margin-top: 20px; margin-left: 10px; margin-right: 10px;
+}
+.cardinner{
+    margin-top: 10px; margin-left: 5px; margin-right: 5px;
+}
+
+/* code for mobile view dashboard */
+@media (min-width: 992px){
+container {
+    width: 0px;
+}
+}
+ /* th{
+   text-align: center;
+ } */
+
+ table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+   
+  
+  text-align: center;
+   
+  /* padding: 4px; */
+  font-size: 14px;
+}
+th {
+  /* border: 1px solid black; */
+  text-align: center;
+  padding: 4px;
+  font-size: 18px;
+  background-color: #dddddd;
+}
+P{
+  margin-bottom: 3px;
+  margin-top: 3px;
+
+}
+ 
+.actionbutton{
+  height: 40px;
+  width: 40px;
+}
+.icons{
+  height: 5px;
+  width: 5px;
+}
+ .btnstyle
+ {
+  height: 33px;
+   width: 10px;
+   padding-bottom: 15px;
+ }
+ 

@@ -1,0 +1,79 @@
+.hrstyle{
+    width: 100%; color: black; ;
+ }
+
+ .heading{
+     text-align: center;
+     font-size: 18px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+ .pagefont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+
+ .buttons{
+    height: 35px;
+    width: 90px;
+    text-align: center;
+ }
+ .addbuttons
+ {
+   height: 47px;
+   width: 47px;
+   text-align: center;
+ }
+ .example-form {
+   min-width: 150px;
+   max-width: 500px;
+   width: 100%;
+ }
+ 
+ .example-full-width {
+   width: 100%;
+   font-size: 15px;
+
+ }
+ .example-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+ .singlesideratecard{
+text-align: center;
+margin-left:200px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ 
+ .bothsideratecard{
+text-align: center;
+margin-left:200px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ 
+.matcard{
+   padding: 0px;
+ }
+ 
+ td {
+   padding-right: 8px;
+ }
+ .matcardstyle{
+   margin: 10px;
+ }
+ 
+/* .body{
+  background-color: rgb(216, 237, 253);
+}  */
+
+.textborder{
+    border: solid 2px yellow;
+}
+.errormsg{
+  margin-top: -22px;
+  color: red;
+}

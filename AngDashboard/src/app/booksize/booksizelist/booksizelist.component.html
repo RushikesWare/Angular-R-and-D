@@ -1,0 +1,85 @@
+<div class="card cardouter body">
+    <br>
+    <div class="row">
+        <div class="col-md 12 ">
+            <h4 class="heading"><b>Book Size List</b></h4>
+        </div>
+    </div> 
+    <!-- <hr class="hrstyle">  -->
+ 
+    <div class="row">
+        <div class="col-md-1   " ></div>
+        <div class="col-md-1   " >
+          
+                <button  mat-raised-button color="primary" class="btn btn-success  " routerLink="/layout/addbooksize">Add Book Size +
+                   </button> 
+                   
+            </div> 
+            <div class="col-md-5"></div>
+            <div class="col-md-3">
+                <mat-form-field class="example-full-width" appearance="outline">
+                    <mat-label>Search</mat-label>
+
+                    <input type="text" matInput placeholder="Search"> 
+  
+                   
+                </mat-form-field>
+          
+            </div>
+            <div class="col-md-1   ">
+                <button  mat-raised-button color="primary" class="btn btn-success btnmarginsearch"  >  <i class="material-icons   " >
+                    search
+                     </i>
+                     </button>
+            </div>
+
+    </div>
+    
+    <div class="row "  >
+ 
+            <table id="mytable" class=" tables  table-bordered  ">
+                <!-- table-sm table-striped -->
+                <thead class="thead-light" >
+
+                    <th>Sr. No.</th>
+                    <th>Book Size</th>
+                    <th>Rate</th> 
+                    <th  colspan="2" >Action</th>  
+                </thead> 
+                <tbody style="color:black;"  >
+
+                    <tr class="   ">
+                        <!-- *ngFor="let c of Customer" -->
+                        <!-- <td>{{c. }}</td>
+                        <td>{{c. }}</td>
+                        
+                        <td>{{c. }}</td>
+                        <td>{{c. }}</td> -->
+                      <td> 1</td>
+                        <td> Prod 1</td>
+                        
+                        <td>50000</td>
+                        
+
+                        <td><i class="fa fa-edit" style="color:royalblue;"  routerLink="/layout/addbooksize"></i>
+                        </td>
+                        <td>
+                        <i class="fa fa-trash" style="color: red;"  (click)="openDialog()"   ></i>
+                        </td>
+ 
+ 
+
+                    </tr>
+                   
+                </tbody>
+
+            </table>
+
+        <!-- </div> -->
+
+        <!-- <div class="col-md-1"></div> -->
+
+       
+    </div>
+   
+</div> 
