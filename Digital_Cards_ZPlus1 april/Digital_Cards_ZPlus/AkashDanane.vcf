@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Akash Danane
+
+N:Danane;Akash;;;
+EMAIL;TYPE=INTERNET;TYPE=WORK:akash.danane@zpluscybertech.com
+
+TEL;TYPE=WORK:9881037540
+
+item1.ORG:zplus cyber secure technologies pvt ltd
+item1.X-ABLabel:
+item2.TITLE:Director
+item2.X-ABLabel:
+CATEGORIES:myContacts
+END:VCARD

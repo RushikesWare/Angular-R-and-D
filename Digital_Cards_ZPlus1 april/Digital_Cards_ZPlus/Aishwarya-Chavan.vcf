@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Aishwarya Chavan
+
+N:Chavan;Aishwarya;;;
+EMAIL;TYPE=INTERNET;TYPE=WORK:aishwarya.chavan@zpluscybertech.com
+
+TEL;TYPE=WORK:9156146192
+
+item1.ORG:zplus cyber secure technologies pvt ltd
+item1.X-ABLabel:
+item2.TITLE:HR
+item2.X-ABLabel:
+CATEGORIES:myContacts
+END:VCARD

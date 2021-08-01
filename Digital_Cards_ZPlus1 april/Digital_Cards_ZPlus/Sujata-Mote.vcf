@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Sujata Mote
+
+N:Mote;Sujata;;;
+EMAIL;TYPE=INTERNET;TYPE=WORK:sujata.mote@zpluscybertech.com
+
+TEL;TYPE=WORK:9028247932
+
+item1.ORG:zplus cyber secure technologies pvt ltd
+item1.X-ABLabel:
+item2.TITLE:HR
+item2.X-ABLabel:
+CATEGORIES:myContacts
+END:VCARD

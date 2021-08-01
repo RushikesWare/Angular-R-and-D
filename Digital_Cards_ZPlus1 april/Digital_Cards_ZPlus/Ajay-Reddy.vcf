@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Ajay Reddy
+
+N:Reddy;Ajay;;;
+EMAIL;TYPE=INTERNET;TYPE=WORK:ajay.reddy@zpluscybertech.co.in
+
+TEL;TYPE=WORK:9028282479
+
+item1.ORG:zplus cyber secure technologies pvt ltd
+item1.X-ABLabel:
+item2.TITLE:HR
+item2.X-ABLabel:
+CATEGORIES:myContacts
+END:VCARD
